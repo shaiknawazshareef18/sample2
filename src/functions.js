@@ -1,3 +1,4 @@
+// @ts-check
 
 // expresses order in the URL as well as type
 const param_types = {
@@ -3877,3 +3878,7 @@ function show_multi_user_setup_dialog(from_current_document) {
 	$w.center();
 	$session_name.focus();
 }
+
+// export { localStore };
+// // Temporary globals until all dependent code is converted to ES Modules
+// window.storage = localStore;
